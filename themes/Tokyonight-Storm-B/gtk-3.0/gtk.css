@@ -1778,6 +1778,7 @@ spinbutton:not(.vertical) button {
 button {
   min-height: 24px;
   min-width: 16px;
+  /* padding: 6px 10px; */
   padding: 6px 10px;
   border-radius: 6px;
   font-weight: 500;
@@ -2258,6 +2259,7 @@ button.text-button.flat {
 button.image-button {
   min-width: 24px;
   padding: 6px;
+  /* padding: 6px; */
 }
 
 button.image-button.destructive-action {
@@ -3823,8 +3825,9 @@ notebook.frame frame > list row.activatable {
 notebook > header {
   border: none;
   background-color: transparent;
-  padding: 3px;
-  margin: 3px;
+  /* 解决大标签页问题 */
+  /* padding: 3px; */
+  /* margin: 3px; */
   border-radius: 9px;
 }
 
