@@ -7009,3 +7009,7 @@ indicatorbin.needs-attention > indicator {
 indicatorbin.needs-attention > indicator > label {
   color: rgba(0, 0, 0, 0.87);
 }
+
+box {
+    box-shadow: none;
+}
