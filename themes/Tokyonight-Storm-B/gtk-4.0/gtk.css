@@ -6664,3 +6664,15 @@ indicatorbin.needs-attention > indicator > label {
 box {
     box-shadow: none;
 }
+
+.nautilus-window .sidebar-pane > .undershoot-top {
+background-color: #24283b;
+}
+.nautilus-window .sidebar-pane > .undershoot-top > .top-bar{
+padding-top: 5px;
+}
+
+.nautilus-window box.collapse-spacing.vertical {
+padding-top: 0px;
+padding-bottom: 0px;
+}
